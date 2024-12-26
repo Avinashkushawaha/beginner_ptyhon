@@ -8,7 +8,8 @@ if num ==  1:
 else:
     print(a)
     print(b)
-    for i in range(2, num):
+    # for i in range(2, num):
+    for i in range(1, num+1):
         c = a + b
         a = b
         b = c
