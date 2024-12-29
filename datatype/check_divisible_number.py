@@ -8,8 +8,8 @@ for i in range (1, 100):
 # ***********************************
 # Solution 2 Using Lambda Function and filter()
 
-l =[39. 48, 26, 98, 33, 76, 87]
+l =[39, 48, 26, 98, 33, 76, 87]
 
 result = list(filter(lambda X : X % 13 == 0, l))
 
-print('The numbers divisible numbers')
+print('The numbers divisible numbers' , result)
