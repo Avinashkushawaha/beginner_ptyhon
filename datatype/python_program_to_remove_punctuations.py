@@ -1,7 +1,13 @@
 punc = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
 
-my_str = "
+string = input("Enter anything here: ")  
 
-string = input("Enter a string: ")  
+my_str = " "
+
+for i in string:
+    if i not in punc:
+        my_str = my_str + i
+
+print(my_str)
 
 
