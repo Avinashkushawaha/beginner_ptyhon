@@ -2,10 +2,11 @@ a = "Harry Potter and the Philosopher's Stone"
 
 w = a.split()
 print(w)
-# w.sort()
-# print(w)
 
-for i in (len(w)):
-        if w[i] < w[j]:
+
+for i in range (len(w)):
+         w[i] = w[i].lower()
          
+w.sort()
 print(w) 
+
