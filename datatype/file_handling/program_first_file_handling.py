@@ -3,7 +3,7 @@ def get_line(file_name: str, num:int):
     file = open(file_name)
     lines = file.readlines()
     line = lines[num-1]
-    file.close[ ]
+    file.close()
     return line
 
-print(get_line ("sample.log", 3))
+print(get_line )
