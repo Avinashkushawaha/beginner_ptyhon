@@ -5,3 +5,4 @@ def even_num_gen():
     while True:
         yield num
         num += 2
+# print(num)    
